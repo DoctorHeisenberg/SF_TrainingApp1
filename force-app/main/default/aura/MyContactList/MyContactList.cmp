@@ -3,6 +3,7 @@
     <aura:attribute name="Account" type="Account" />
     <aura:attribute name="Contacts" type="Contact" />
     <aura:attribute name="Columns" type="List" />
+    <aura:handler name="init" value="{!this}" action="{!c.myAction}" />
     <force:recordData aura:id="accountRecord"
                       recordId="{!v.recordId}"
                       targetFields="{!v.Account}"
@@ -11,4 +12,4 @@
     <lightning:card iconName="standard:contact" title="{! 'Contact List for ' + v.Account.Name}">
         <!-- Contact list goes here -->
     </lightning:card>
-</aura:component>	
+</aura:component>
