@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "JetBI",
+  "namespace": "",
+  "sfdcLoginUrl": "https://jetbi65-dev-ed.develop.lightning.force.com",
+  "sourceApiVersion": "59.0"
+}
